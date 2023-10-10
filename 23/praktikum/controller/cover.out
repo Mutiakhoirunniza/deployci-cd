@@ -1,0 +1,12 @@
+mode: set
+20/controller/user.go:25.72,29.2 1 1
+20/controller/user.go:32.60,34.16 2 1
+20/controller/user.go:34.16,38.3 1 0
+20/controller/user.go:39.2,41.4 1 1
+20/controller/user.go:45.59,48.16 3 1
+20/controller/user.go:48.16,52.3 1 0
+20/controller/user.go:54.2,55.16 2 1
+20/controller/user.go:55.16,59.3 1 1
+20/controller/user.go:61.2,62.16 2 1
+20/controller/user.go:62.16,66.3 1 0
+20/controller/user.go:68.2,74.4 2 1
