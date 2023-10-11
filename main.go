@@ -27,7 +27,7 @@ func main() {
 
 	routes.InitRouter(e, db)
 	e.Logger.Fatal(e.Start(fmt.Sprintf(":%d", cfg.SERVERPORT)))
-	// e.Logger.Fatal(e.Start(":80"))
+	// e.Logger.Fatal(e.Start(":8080"))
 }
 
 
