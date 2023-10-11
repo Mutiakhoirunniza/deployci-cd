@@ -32,11 +32,11 @@ func InitConfig() *AppConfig {
 func loadConfig() *AppConfig {
 	var res = new(AppConfig)
 
-	err := godotenv.Load(".env")
+	godotenv.Load(".env")
 
-	if err != nil {
-		logrus.Error("Config : Cannot load config file,", err.Error())
-	}
+	// if err != nil {
+	// 	logrus.Error("Config : Cannot load config file,", err.Error())
+	// }
 
 	if val, found := os.LookupEnv("SERVERPORT"); found {
 		port, err := strconv.Atoi(val)
